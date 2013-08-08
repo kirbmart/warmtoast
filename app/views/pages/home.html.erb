@@ -1,9 +1,13 @@
+<% if user_signed_in? %>
+		<h1>You're logged in!</h1>
+<% else %>
 <div class="hero-unit">
-	<h1>Welcome to THIS</h1>
+	<h1>Welcome to an app</h1>
 	<p>
-		You've four the home page for the app <%= link_to "Goodlunch", "http://goodlunch.com" %>
+		You've found the home page for a really cool app by <%= link_to "Brady", "http://goodlunch.com" %>
 	</p>
 	<p>
-		<%= link_to "Sign Up Now", "#", class: "btn btn-primary btn-large" %>
+		<%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-primary btn-large" %>
 	</p>
 </div>
+<% end %>
