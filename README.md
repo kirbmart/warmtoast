@@ -1,3 +1,3 @@
-# One Month Rails
-This is the sample app
+# My first app
+This is my first app
 
