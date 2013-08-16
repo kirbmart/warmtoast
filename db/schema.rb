@@ -17,10 +17,6 @@ ActiveRecord::Schema.define(version: 20130816163501) do
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "userrails"
-    t.string   "generate"
-    t.string   "migration"
-    t.string   "AddUserIdToPins"
     t.integer  "user_id"
   end
 
